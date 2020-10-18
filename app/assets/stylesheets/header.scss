@@ -1,0 +1,11 @@
+.header{
+  padding: $base-padding $base-padding;
+
+  &_logo{
+    
+    img{
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
