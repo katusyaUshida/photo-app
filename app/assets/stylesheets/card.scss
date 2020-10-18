@@ -1,0 +1,67 @@
+.card{
+
+  &_header{
+    display: flex;
+    justify-content: start;
+    vertical-align: middle;
+    padding-bottom: 11px;
+
+    img{
+      height: $base-icon-image;
+      vertical-align: middle;
+      padding-right: 5px;
+      padding-top: 5px;
+    }
+
+    .card-user-info{
+      p{
+        font-size: 14px;
+      }
+
+      .time-stamp{
+        color: gray;
+      }
+    }
+
+  }
+
+  &_image{
+    text-align: center;
+    padding-bottom: 11px;
+  }
+
+  &_share-area{
+    img{
+      padding-right: 5px;
+    }
+  }
+
+  &_likes-list{
+    font-size: 12px;
+  }
+
+  &_detail{
+    display: flex;
+    justify-content: start;
+
+    p{
+      font-size: 12px;
+      padding-right: 10px;
+    }
+  }
+}
+
+.card-profile{
+  min-height: 150px;
+
+  .card-profile_icon{
+    padding: 20px;
+    img{
+      height: 76px;
+      width: 76px;
+
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
